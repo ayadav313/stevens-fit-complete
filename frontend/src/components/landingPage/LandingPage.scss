@@ -1,0 +1,43 @@
+.landing-page {
+    background: #2b2b2b;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    h1 {
+      font-weight: bold;
+    }
+  
+    .lead {
+      color: #ddd;
+    }
+  
+    .feature-card {
+      background: #fff;
+      color: #2b2b2b;
+      transition: transform 0.3s;
+  
+      &:hover {
+        transform: scale(1.05);
+      }
+  
+      h2 {
+        color: #000;
+      }
+  
+      p {
+        color: #444;
+      }
+    }
+  
+    .btn-primary {
+      background-color: #0062cc;
+      border-color: #0062cc;
+      color: #fff;
+      font-size: 1.2rem;
+      padding: 10px 30px;
+    }
+  }
+  

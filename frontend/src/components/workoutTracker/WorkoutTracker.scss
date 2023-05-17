@@ -1,0 +1,43 @@
+.workout-tracker {
+width: 100%;
+}
+
+.chart-container {
+width: 100%;
+height: 400px;
+}
+.workout-tracker {
+  h3 {
+  text-align: center;
+  font-weight: bold;
+  }
+
+  .exercise-log {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    h4 {
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+
+    .card-text {
+      margin-bottom: 0.5rem;
+    }
+
+    .input-group {
+      margin-bottom: 1rem;
+
+      .input-group-text {
+        font-weight: bold;
+      }
+    }
+}
+
+button {
+  display: block;
+  margin: 2rem auto 0;
+  width: 100%;
+  max-width: 200px;
+}
+}

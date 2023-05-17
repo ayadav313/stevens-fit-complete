@@ -1,0 +1,35 @@
+{
+  "name": "stevensfit-backend",
+  "version": "1.0.0",
+  "description": "Backend for *Stevens Fit* Web Application!",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test:mongo": "mocha ./test/config/*.test.js",
+    "test:data": "mocha ./test/data/*.test.js",
+    "seed": "node tasks/seed.js",
+    "seed:test": "node tasks/seedTestData.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.22",
+    "opencommit": "^1.1.39"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongodb": "^5.1.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3",
+    "validator": "^13.9.0"
+  }
+}

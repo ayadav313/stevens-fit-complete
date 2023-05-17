@@ -1,0 +1,19 @@
+.exercise-input {
+    margin-bottom: 1.5rem;
+  
+    &__select {
+      margin-bottom: 1rem;
+    }
+  
+    label {
+      display: block;
+      margin-top: 0.5rem;
+    }
+  
+    input,
+    textarea {
+      margin-top: 0.25rem;
+      width: 100%;
+    }
+  }
+  
