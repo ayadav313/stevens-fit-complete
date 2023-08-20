@@ -1,6 +1,6 @@
 # Getting started with Stevens Fit
 
-# TODO: Note
+# Note
 - Run back end before front end because we have hardcoded the route from the backend to the front end to be 3001
 
 # Steps for back end
